@@ -1,0 +1,12 @@
+<h1>Hello</h1>
+
+<input type="text"
+       name="question"
+       value="<%= params[:question] %>"
+       placeholder="What is your question?">
+
+
+<%= @answer %>
+<p>
+<%= link_to "Ask a new question", "/ask" %>
+</p>
